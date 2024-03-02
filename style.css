@@ -22,24 +22,28 @@ a:hover {
   color: #444;
 }
 
-nav, footer {
+nav,
+footer {
   display: flex;
   justify-content: flex-end;
   padding: 0 14px 0 0;
 }
 
-nav li, footer li {
+nav li,
+footer li {
   margin-top: 25px;
   padding: 0px 10px;
   width: 50px;
   display: inline-block;
 }
 
-nav svg, footer svg {
+nav svg,
+footer svg {
   fill: #000;
 }
 
-nav svg:hover, footer svg:hover {
+nav svg:hover,
+footer svg:hover {
   fill: #444;
 }
 
@@ -73,8 +77,9 @@ footer {
   justify-content: center;
 }
 
-
-#overskrift, nav, body {
+#overskrift,
+nav,
+body {
   background: rgb(67, 10, 102);
 }
 #overskrift {
@@ -93,9 +98,9 @@ footer {
 }
 #overskrift img {
   position: absolute;
-  left: calc(50vw - 429px);
-  width: 500px;
-  bottom: 22px;
+  left: calc(50vw - 200px);
+  width: 280px;
+  bottom: 0px;
 }
 #overskrift h1 {
   font-family: Montserrat, sans-serif;
@@ -108,17 +113,19 @@ footer {
   width: 100%;
 }
 
-#about{ 
+#about {
   background: #fff;
 }
 
 #about img {
-    width: 300px;
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-#about{
+  width: 380px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
