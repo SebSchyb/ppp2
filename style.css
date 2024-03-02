@@ -14,7 +14,7 @@ a:active,
 a:focus,
 a:visited {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -39,7 +39,7 @@ footer li {
 
 nav svg,
 footer svg {
-  fill: #000;
+  fill: #ffffff;
 }
 
 nav svg:hover,
@@ -50,7 +50,7 @@ footer svg:hover {
 nav .logo {
   align-self: center;
   margin-right: auto;
-  background: #000;
+  background: #ffffff;
   color: rgb(67, 10, 102);
   padding: 31px 20px;
 }
@@ -95,6 +95,7 @@ body {
   position: absolute;
   bottom: 450px;
   right: calc(50vw - 400px);
+  color: #fff;
 }
 #overskrift img {
   position: absolute;
@@ -111,6 +112,7 @@ body {
   bottom: 80px;
   text-align: center;
   width: 100%;
+  color: #fff;
 }
 
 #about {
@@ -128,4 +130,52 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+}
+
+#skillls {
+  background: rgb(67, 10, 102);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  color: #fff;
+  margin: 10px;
+}
+
+#skillls .container-fluid {
+  max-width: 960px;
+  width: 100%;
+}
+
+.amg-badge-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between badges */
+}
+
+.amg-badge {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.amg-badge img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.amg-badge h3 {
+  margin: 0;
+  line-height: 50px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 639px) {
+  .amg-badge {
+    width: 50%;
+    padding: 20px 10%;
+  }
 }
