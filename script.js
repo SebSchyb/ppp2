@@ -1,5 +1,4 @@
 $(function () {
-  // Rotate Skill Badges
   var $badges = $(".amg-badge img");
 
   function rotateBadge(passedBadge, speed) {
