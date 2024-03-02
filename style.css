@@ -8,6 +8,7 @@ body {
   font-family: "pt_serifregular", sans-serif;
   background-color: white;
 }
+
 a,
 a:hover,
 a:active,
@@ -82,11 +83,13 @@ nav,
 body {
   background: rgb(67, 10, 102);
 }
+
 #overskrift {
   position: relative;
   height: calc(100vh - 350px);
   background-color: rgb(67, 10, 102);
 }
+
 #overskrift p {
   font-size: 32px;
   width: 350px;
@@ -97,12 +100,14 @@ body {
   right: calc(50vw - 400px);
   color: #fff;
 }
+
 #overskrift img {
   position: absolute;
   left: calc(50vw - 200px);
   width: 280px;
   bottom: 0px;
 }
+
 #overskrift h1 {
   font-family: Montserrat, sans-serif;
   font-size: 288px;
@@ -126,6 +131,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 #about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -152,7 +158,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Adjust the gap between badges */
+  gap: 20px;
 }
 
 .amg-badge {
@@ -179,6 +185,7 @@ body {
     padding: 20px 10%;
   }
 }
+
 footer {
   background-color: #333;
   color: #fff;
@@ -204,4 +211,60 @@ footer {
     margin-bottom: 10px;
   }
 }
-/* ------------------mobile view yeae--------------------- */
+
+body {
+  font-size: 16px;
+}
+
+#overskrift p {
+  font-size: 20px;
+  width: 71%;
+  right: 0%;
+  bottom: 235px;
+  z-index: 1;
+}
+
+#overskrift img {
+  width: 50%;
+  left: 50px;
+  bottom: 0px;
+}
+
+#overskrift h1 {
+  font-size: 60px;
+  bottom: 234px;
+}
+
+#about img {
+  width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  #overskrift p {
+    font-size: 32px;
+    width: 350px;
+    right: calc(50vw - 400px);
+    bottom: 450px;
+  }
+
+  #overskrift img {
+    width: 280px;
+    left: calc(50vw - 140px);
+    bottom: 0;
+  }
+
+  #overskrift h1 {
+    font-size: 288px;
+    bottom: 80px;
+  }
+
+  #about img {
+    width: 380px;
+    margin: 30px 10rem 20px 10rem;
+  }
+}
