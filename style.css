@@ -238,13 +238,16 @@ body {
 
   #about img {
     width: 380px;
-    margin: 30px 10rem 20px 10rem;
+    margin: 30px 0 20px 10rem;
+  }
+  #about .text {
+    margin: 0 5rem 0 0;
   }
 }
 footer {
   background-color: rgb(67, 10, 102);
   color: #fff;
-  padding: 20px;
+  padding: 5rem;
   text-align: center;
 }
 
@@ -261,7 +264,7 @@ footer {
 }
 
 .social-links {
-  margin-top: 10px;
+  margin: 20px 0 20px 0;
 }
 
 .social-links a {
@@ -269,4 +272,8 @@ footer {
   margin: 0 10px;
   color: #fff;
   text-decoration: none;
+}
+#goals {
+  background: #fff;
+  padding: 5rem;
 }
