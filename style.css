@@ -23,12 +23,11 @@ a:hover {
   color: #444;
 }
 
-nav,
-/* footer {
+nav {
   display: flex;
   justify-content: flex-end;
   padding: 0 14px 0 0;
-} */
+}
 
 nav li,
 footer li {
